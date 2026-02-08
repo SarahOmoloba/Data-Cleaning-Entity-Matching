@@ -26,8 +26,12 @@ manual data entry, duplicate entities, and conflicting records.
 - Excel (review output)
 
 ## Output
-The final output is an Excel file suitable for manual review,
-containing match scores and classification labels.
+The workflow produces an Excel file containing:
+- Match score
+- Match classification (Existing / New / Conflict)
+- Match explanation
+
+The output is intended for business review and manual validation.
 
 ## Notes
 All data used in this project is synthetic and does not contain
